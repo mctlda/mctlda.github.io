@@ -35,7 +35,10 @@
 }
 
 .mapouter {
-    position:fixed;
+    /* position:fixed; */
+    position: absolute;
+    padding-bottom: 20%;
+    padding-top: 30px;
     text-align: center;
     height:464px;
     width:1080px;
