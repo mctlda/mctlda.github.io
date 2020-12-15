@@ -34,10 +34,16 @@
     width: 100vh;
 }
 
-#map-container-google-3 {
+.mapouter {
     position:fixed;
     text-align: center;
-    bottom: 0;
+    height:464px;
+    width:1080px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
     height:464px;
     width:1080px;
 }
