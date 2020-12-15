@@ -34,14 +34,14 @@
     width: 100vh;
 }
 
-.mapouter {
+#mapouter {
     position:fixed;
     text-align: center;
     height:464px;
     width:1080px;
 }
 
-.gmap_canvas {
+#gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:464px;
