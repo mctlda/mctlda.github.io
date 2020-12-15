@@ -34,12 +34,16 @@
     width: 100vh;
 }
 
-#mapouter {
-    position:absolute;
-    width:300px;
-    height:300px;
-    bottom:0px;
-    right:25%;
-    left:50%;
-    margin-left:-150px;
+.mapouter {
+    position:fixed;
+    bottom: 0;
+    height:464px;
+    width:1080px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:464px;
+    width:1080px;
 }
