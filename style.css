@@ -38,6 +38,10 @@ body {
     font-family: 'Parsienne';
 }
 
+#materials {
+    font-family: 'Parsienne';
+}
+
 .item img {
     height: 450px !important;
     width: 850px !important;
