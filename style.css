@@ -45,6 +45,11 @@ body {
     font-family: 'Parsienne';
 }
 
+#location {
+    text-align: center;
+    font-family: 'Parsienne';
+}
+
 
 .item img {
     height: 450px !important;
@@ -57,7 +62,6 @@ body {
     text-align: center;
     height:464px;
     width:1080px;
-    font-family: 'Parsienne';
 }
 
 .mapouter iframe {
