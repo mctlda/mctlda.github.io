@@ -66,6 +66,7 @@ body {
     height:100%;
     width:100%;
     position:absolute; 
+    align-items: center;
 }
 
 .gmap_canvas {
@@ -73,6 +74,7 @@ body {
     background:none!important;
     height:464px;
     width:1080px;
+    align-items: center;
 }
 
 footer{
