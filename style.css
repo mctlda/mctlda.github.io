@@ -1,14 +1,13 @@
 body {
     width: 100%;
     height: 100%;
-    background-image:  url('images/marble.jpg');
+    background-image: url('images/marble.jpg');
 }
 
 .navbar {
 	margin-bottom: 0;
 	background-color:#DCDCDC;
 	z-index: 9999;
-	border: 0;
 	font-size: 14px !important;
 	line-height: 1.42857143 !important;
 	letter-spacing: 4px;
@@ -16,35 +15,17 @@ body {
 	font-family: Didot, serif;
 }
 
-#marmoresimg {
-    position: fixed;
-    bottom: 0;
-    right: 80;
-    height: 80vh;
-    width: 100vh;
-    padding-left: 130px;
-    padding-top: 50px;
+#name {
+    margin-top: 300px;
+    margin-left: 200px;
+
 }
 
-#cristovaoimg {
-    position: fixed;
-    bottom: 0;
-    right: 80;
-    height: 70vh;
-    width: 100vh;
-    padding-left: 130px;
-    padding-top: 50px;
+#about {
+    margin-top: 100px;
 }
 
-#timoteoimg {
-    position: fixed;
-    bottom: 0;
-    right: 80;
-    height: 60vh;
-    width: 100vh;
-    padding-left: 130px;
-    padding-top: 50px;
-}
+
 /* 
 .mapouter {
     position: relative;
