@@ -25,6 +25,10 @@ body {
     margin-top: 100px;
 }
 
+.item img {
+    height: 450px !important;
+    width: 850px !important;
+}
 
 /* 
 .mapouter {
