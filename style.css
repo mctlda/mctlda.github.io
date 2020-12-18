@@ -12,6 +12,10 @@ body {
     background-image: url('images/marble.jpg');
 }
 
+.container-fluid {
+	padding: 120px 60px;
+}
+
 .navbar {
 	margin-bottom: 0;
 	background-color:#DCDCDC;
@@ -27,6 +31,7 @@ body {
     margin-top: 300px;
     margin-left: 200px;
     font-family: 'Parsienne';
+    font-size: 10vw;
 }
 
 #about {
@@ -47,6 +52,7 @@ body {
 
 #location {
     text-align: center;
+    align-items: center;
     font-family: 'Parsienne';
 }
 
