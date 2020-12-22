@@ -6,9 +6,11 @@
 }
 
 body {
-    width: 100%;
     height: 100%;
-    background-image: url('images/marble.jpg');
+    background-image: url('images/backgroung.jpg');
+    /* Center and scale the image nicely */
+    background-position: center;
+    
 }
 
 .container-fluid {
@@ -28,7 +30,8 @@ body {
 
 #name {
     margin-top: 300px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    text-align: center;
     font-family: 'Parsienne';
     font-size: 10vw;
     color: #000000;
