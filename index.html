@@ -14,20 +14,27 @@
 
 
 <body id="mctPage" data-spy="scroll" data-target=".navbar"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+  <script src="welcome.js"></script>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <section>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="logo">
+        <h4>Mármores Cristóvão Timóteo, Lda</h4>
+      </div>
+      
       <div class="container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="mctnavbar">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+    
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="mctnavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="mctnavbar">
+        <div class="collapse navbar-collapse" id="mctnavbar">
           <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">Sobre Nós</a></li>
               <li><a href="#projects">Projetos</a></li>
@@ -35,22 +42,38 @@
               <li><a href="#location">Localização</a></li>
               <li><a href="#contact">Contacto</a></li>
           </ul>
-          </div>
+        </div>
 
       </div>
-  </nav>
+    </nav>
 
-  <section>
-    <div id="about" class="container-fluid">
-      <h1>Marmores</h1>
-      <h1>Cristóvão</h1>
-      <h1>Timóteo, Lda</h1>
-      <br>
-      <h3>Mármores Cristóvão Timóteo, Lda. é uma empresa criada em 1999, sendo um negócio em crescimento de geração em geração desde 1953 pelo Sr. António Manuel Timóteo que começou por explorar pedreiras de Lioz e a transformação dessa matéria prima em Anços, concelho de Sintra.</h3>
-      <h3>Somos uma empresa vocacionada para exportação de materiais tais como Mármores e Calcários para os mais variados tipos de mercados e trabalhos em qualquer parte do mundo e também para venda para território nacional onde o nosso objetivo é a satisfação de quem está à procura dos nossos produtos, onde a qualidade é prioridade.</h3>
-    
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">Desde</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">1999</span>
+        </h1>
+      </div>
     </div>
+
+
+   <div class="slider"></div>
+  
+   <div id="about" class="container-fluid">
+      <h1 class="big-text">Marmores</h1>
+      <h1 class="big-text">Cristóvão</h1>
+      <h1 class="big-text">Timóteo, Lda</h1>
+      <br>
+      <div class="description">
+        <h2>Mármores Cristóvão Timóteo, Lda. é uma empresa criada em 1999, sendo um negócio em crescimento de geração em geração desde 1953 pelo Sr. António Manuel Timóteo que começou por explorar pedreiras de Lioz e a transformação dessa matéria prima em Anços, concelho de Sintra.</h2>
+        <h2>Somos uma empresa vocacionada para exportação de materiais tais como Mármores e Calcários para os mais variados tipos de mercados e trabalhos em qualquer parte do mundo e também para venda para território nacional onde o nosso objetivo é a satisfação de quem está à procura dos nossos produtos, onde a qualidade é prioridade.</h2>
+      </div>
+    </div>
+
   </section>
+
     
   <section>
     <div id="projects" class="project1-description">
@@ -123,7 +146,7 @@
   
       <div class="mapouter">
           <div class="gmap_canvas">
-            <p style="text-align: center;"><iframe width="1080" height="464" id="gmap_canvas" src="https://maps.google.com/maps?q=38%C2%B052'17.6%22N%209%C2%B018'05.6%22W&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            <p style="text-align: center;"><iframe width=100% height="464" id="gmap_canvas" src="https://maps.google.com/maps?q=38%C2%B052'17.6%22N%209%C2%B018'05.6%22W&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
               </iframe></p><a href="https://putlocker-is.org">putlocker</a>
           </div>
       </div>  

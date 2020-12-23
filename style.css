@@ -10,14 +10,74 @@ body {
     background-image: url('images/wallpaper.png');    
 }
 
-.gallery-highlight {
-    width: 80%;
-    height: 70%;
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    font-family: 'Parsienne';
+    padding: 0rem 10rem;
 }
+
+.description {
+    background: #505050;
+}
+
+.big-text {
+    font-family: 'Parsienne';
+    font-size: 5rem;
+    font-weight: bold;
+}
+/* 
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999 !important;
+    transform: translate(100%);
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.intro-text {
+   color: aliceblue;
+   font-family: 'Parsienne'; 
+   font-size: 3rem;
+   z-index: 99999 !important;
+} */
 
 section {
     display: flex;
     height: 100vh;
+}
+
+
+.gallery-highlight {
+    width: 80%;
+    height: 70%;
 }
 
 .project1-description {
@@ -27,6 +87,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #D3D3D3;
+    padding: 0rem 3rem;
 }
 
 .towerbridge-gallery {
@@ -61,9 +122,9 @@ img.towerbridge-active {
 }
 
 .navbar {
-	margin-bottom: 0;
-	background-color:#DCDCDC;
-	z-index: 9999;
+    display: flex;
+    justify-content: space-around;
+    background-color:#DCDCDC;
 	font-size: 14px !important;
 	line-height: 1.42857143 !important;
 	letter-spacing: 4px;
