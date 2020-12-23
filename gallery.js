@@ -1,5 +1,5 @@
 function imageGallery() {
-    const highlight = document.querySelector("gallery-highlight");
+    const highlight = document.querySelector(".gallery-highlight");
     const previews = document.querySelectorAll('.towerbridge-preview img');
 
     previews.forEach(preview => {
