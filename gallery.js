@@ -7,6 +7,8 @@ function imageGallery() {
             const smallSrc = this.src;
             const bigSrc = smallSrc.replace('small', 'big');
             highlight.src = bigSrc;
+            previews.forEach(preview => preview.classList.remove('towerbridge-active'));
+            preview.classList.add("towerbridge-active");
         });
     });
 }
