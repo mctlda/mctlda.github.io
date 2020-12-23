@@ -5,12 +5,62 @@
     font-style: normal;
 }
 
+/* @font-face {
+    font-family: 'quicksand';
+    src: url('fonts/Quicksand/Quicksand/Quicksand-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+
 body {
     height: 100%;
-    background-image: url('images/marble.jpg');
-    /* Center and scale the image nicely */
-    background-position: center;
-    
+    background-image: url('images/wallpaper.png');    
+}
+
+.gallery-highlight {
+    width: 80%;
+    height: 50%;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+.project1-description {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+
+.towerbridge-gallery {
+    width: 80%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.towerbridge-preview {
+    display: flex;
+    width: 80%;
+    border: 2px solid #e2d2c0;
+}
+
+.towerbridge-preview img {
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+img.room-active {
+    opacity: 1;
 }
 
 .container-fluid {
@@ -28,20 +78,11 @@ body {
 	font-family: Didot, serif;
 }
 
-#name {
-    margin-top: 300px;
-    /* margin-left: 200px; */
-    text-align: center;
-    font-family: 'Parsienne';
-    font-size: 10vw;
-    color: #000000;
-}
-
 #about {
     text-align: center;
     font-family: 'Parsienne';
     margin-top: 100px;
-    color: #000000;
+    color: #F8F8FF;
     /* background-color: #000000; */
 }
 
@@ -54,21 +95,21 @@ body {
 #materials {
     text-align: center;
     font-family: 'Parsienne';
-    color: #000000;
+    color: #F8F8FF;
 }
 
 #location {
     text-align: center;
     align-items: center;
     font-family: 'Parsienne';
-    color: #000000;
+    color: #F8F8FF;
 }
 
 #contact {
     text-align: center;
     align-items: center;
     font-family: 'Parsienne';
-    color: #000000;
+    color: #F8F8FF;
 }
 
 
