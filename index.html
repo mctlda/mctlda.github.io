@@ -13,39 +13,32 @@
 </head>
 
 
-<body id="mctPage" data-spy="scroll" data-target=".navbar"> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
-  <script src="welcome.js"></script>
+<body id="mctPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+  <script src="welcome.js"></script> -->
 
-  <section>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="logo">
-        <h4>Mármores Cristóvão Timóteo, Lda</h4>
-      </div>
-      
-      <div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-    
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="mctnavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#mctPage" style="font-family: 'Parsienne';">Mármores Cristóvão Timóteo, Lda</a>
+      </div>
 
         <div class="collapse navbar-collapse" id="mctnavbar">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">Sobre Nós</a></li>
+              <li><a href="#mctPage">Sobre Nós</a></li>
               <li><a href="#projects">Projetos</a></li>
               <li><a href="#materials">Materiais</a></li>
               <li><a href="#location">Localização</a></li>
               <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
-
-      </div>
-    </nav>
+    </div>
+  </nav>
 
     <div class="intro">
       <div class="intro-text">
@@ -58,10 +51,10 @@
       </div>
     </div>
 
-
    <div class="slider"></div>
-  
-   <div id="about" class="container-fluid">
+   
+   <section>
+    <div id="about" class="container-fluid">
       <h1 class="big-text">Marmores</h1>
       <h1 class="big-text">Cristóvão</h1>
       <h1 class="big-text">Timóteo, Lda</h1>
