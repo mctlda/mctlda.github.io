@@ -212,9 +212,10 @@ img.towerbridge-active {
 
 
 .mapouter {
-    position: relative;
-    height:464px;
-    width:1080px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
 
 .mapouter iframe {
@@ -222,8 +223,7 @@ img.towerbridge-active {
     top:0;
     height:100%;
     width:100%;
-    position:absolute; 
-    align-items: center;
+    position:absolute;
 }
 
 .gmap_canvas {
