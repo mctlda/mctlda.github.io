@@ -32,6 +32,12 @@ body {
     font-weight: bold;
 }
 
+.project-description {
+    text-align: center;
+    font-family: 'Parsienne';
+    color: #F8F8FF;
+}
+
 section {
     display: flex;
     height: 100vh;
@@ -44,42 +50,42 @@ section {
     width: 100%;
   }
 
-  .carousel{
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    padding: 0 30px;
-  }
+.carousel{
+max-width: 1700px;
+margin: auto;
+padding: 0 30px;
+}
 
-  .carousel .card{
-    color: #fff;
-    text-align: center;
-    margin: 20px 0;
-    line-height: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  }
+.carousel .card{
+color: #fff;
+text-align: center;
+margin: 20px 0;
+line-height: 250px;
+border-radius: 10px;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
 
-  .owl-dots{
-    text-align: center;
-    margin-top: 40px;
-  }
+.owl-dots{
+text-align: center;
+margin-top: 40px;
+}
 
-  .owl-dot{
-    height: 10px;
-    width: 45px;
-    margin: 0 5px;
-    outline: none;
-    border-radius: 14px;
-    border: 2px solid #F0F8FF!important;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-    transition: all 0.3s ease;
-  }
+.owl-dot{
+height: 10px;
+width: 45px;
+margin: 0 5px;
+outline: none;
+border-radius: 14px;
+border: 2px solid #F0F8FF!important;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+transition: all 0.3s ease;
+}
 
-  .owl-dot.active,
-  .owl-dot:hover{
-    background: #F0F8FF!important;
-  }
+.owl-dot.active,
+.owl-dot:hover{
+background: #F0F8FF!important;
+}
+
 
 .container-fluid {
 	padding: 160px 60px;
@@ -123,7 +129,6 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     min-height: 100vh;
-    /* grid-gap: 1rem; */
 }
 
 .img-container {
@@ -148,7 +153,6 @@ section {
     font-family: 'Parsienne';
     margin-top: 100px;
     color: #F8F8FF;
-    /* background-color: #000000; */
 }
 
 #projects {
@@ -183,7 +187,7 @@ section {
 }
 
 
-.mapouter {
+/* .mapouter {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
@@ -204,6 +208,20 @@ section {
     height:464px;
     width:1080px;
     align-items: center;
+} */
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 footer{
