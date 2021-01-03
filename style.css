@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 @font-face {
     font-family: 'Parsienne';
     src: url('fonts/Parisienne/Parisienne-Regular.ttf');
@@ -9,6 +14,11 @@ body {
     background-image: url('images/wallpaper.png');    
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -21,93 +31,55 @@ body {
     font-size: 5rem;
     font-weight: bold;
 }
-/* 
-.intro {
-    background: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slider {
-    background: rgb(97, 105, 109);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 99999 !important;
-    transform: translate(100%);
-}
-
-.hide {
-    background: black;
-    overflow: hidden;
-}
-
-.hide span {
-    transform: translateY(100%);
-    display: inline-block;
-}
-
-.intro-text {
-   color: aliceblue;
-   font-family: 'Parsienne'; 
-   font-size: 3rem;
-   z-index: 99999 !important;
-} */
 
 section {
     display: flex;
     height: 100vh;
-}
-
-
-.gallery-highlight {
-    width: 80%;
-    height: 70%;
-}
-
-.project1-description {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0rem 3rem;
-}
-
-.towerbridge-gallery {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.towerbridge-preview {
     flex-wrap: wrap;
-    display: flex;
-    width: 80%;
-    border: 2px solid #e2d2c0;
 }
 
-.towerbridge-preview img {
-    height: 100px;
-    flex-grow: 1;
-    opacity: 0.6;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-}
+.wrapper{
+    width: 100%;
+  }
 
-img.towerbridge-active {
-    opacity: 1;
-}
+  .carousel{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 0 30px;
+  }
+
+  .carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .owl-dot{
+    height: 10px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #F0F8FF!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #F0F8FF!important;
+  }
 
 .container-fluid {
 	padding: 160px 60px;
