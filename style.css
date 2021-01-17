@@ -5,25 +5,22 @@
 
 @font-face {
     font-family: 'Parsienne';
-    src: url('fonts/Parisienne/Parisienne-Regular.ttf');
+    src: url('fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    background-image: url('images/wallpaper.png');    
+    background-image: url('images/mct.jpg');    
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #505050;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-
-.description {
-    background: #505050;
 }
 
 .big-text {
@@ -151,7 +148,7 @@ background: #F0F8FF!important;
 #about {
     text-align: center;
     font-family: 'Parsienne';
-    margin-top: 100px;
+    margin-top: 80px;
     color: #F8F8FF;
 }
 
@@ -196,8 +193,8 @@ background: #F0F8FF!important;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100% !important;
-    height: 100% !important;
+    width: 100%;
+    height: 100%;
 }
 
 footer{
@@ -235,5 +232,22 @@ footer{
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0%);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
 	}
 }
