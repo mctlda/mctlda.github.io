@@ -142,12 +142,30 @@
           <!--Grid column-->
           <div class="col-md-9 mb-md-0 mb-5">
               <form action="https://formspree.io/f/mbjpvrqo" method="POST">
+                
+                <div class="row justify-content-md-center">
+                  <div class="md-form mb-0">
+                    <label>
+                      Seu Nome:
+                      <input type="text" name="name" style="color: black;">
+                    </label>
+                  </div>
+                </div>
 
                 <div class="row justify-content-md-center">
                   <div class="md-form mb-0">
                     <label>
                       Seu Email:
-                      <input type="text" name="name" style="color: black;">
+                      <input type="text" name="_replyto" style="color: black;">
+                    </label>
+                  </div>
+                </div>
+
+                <div class="row justify-content-md-center">
+                  <div class="md-form">
+                    <label>
+                      Assunto:
+                      <input type="text" name="subject" style="color: black;">
                     </label>
                   </div>
                 </div>
@@ -164,7 +182,7 @@
               </form>
   
               <div class="row-md">
-                  <a class="btn btn-dark" type="submit">Enviar</a>
+                  <a class="btn btn-dark" type="submit" value="Send">Enviar</a>
               </div>
 
               <div class="status"></div>
