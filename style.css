@@ -270,6 +270,7 @@ button {
 
 .contactbox {
 	width: 100%;
+	max-width: 800px;
 	background: #000;
 	padding: 30px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
