@@ -188,8 +188,9 @@ body {
 
 #contact {
     text-align: center;
-    align-items: center;
-    font-family: Didot, serif;
+	align-items: center;
+	font-family: Didot, serif;
+	font-size: medium;
     color: #F8F8FF;
 }
 
