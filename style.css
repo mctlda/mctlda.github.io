@@ -337,6 +337,26 @@ footer{
     font-size: large;
 }
 
+.map-container {
+	width: 100%;
+	margin: auto;
+	height: 450;
+	padding-top: 38%;
+	position: relative;
+	display: flex;
+}
+
+iframe {
+	  width: 100%;
+	  height: 100%; /* had to specify height/width */
+	  position: absolute;
+	  top: 0; 
+	  right: 0;
+	  left: 0; 
+	  bottom: 0;   
+	}
+
+
 .slide {
 	animation-name: slide;
 	-webkit-animation-name: slide;
