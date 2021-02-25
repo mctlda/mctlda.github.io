@@ -261,12 +261,21 @@ button {
   background-color: #000;
 }
 
+
 .input-data input:focus ~ label,
-.input-data textarea:focus ~ label {
+.input-data input:valid ~ label {
 	transform: translateY(-20px);
 	font-size: 15px;
 	color: #AFEEEE;
 }
+
+.input-data textarea:focus ~ label,
+.input-data textarea:valid ~ label {
+	transform: translateY(-20px);
+	font-size: 15px;
+	color: #AFEEEE;
+}
+
 
 .contactbox {
 	width: 100%;
