@@ -56,19 +56,19 @@ body {
 	height: 100%;
 	width:100%;
 	background: url("img/3-small.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
     background: url("img/4-small.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	background: url("img/5-small.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
